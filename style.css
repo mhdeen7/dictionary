@@ -15,7 +15,7 @@ header{
     background-color:darkblue;
     padding: 20px;
     border-radius: 12px;
-    width: 50%;
+    width: 450px;
     margin: 0 auto;
 }
 .container{
@@ -46,19 +46,38 @@ header{
 }
 
 .results{
-    color: white;
+    color:white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding: 30px;
-    border-radius: 12px;
-    background-color: #0c0c0c;
-}
-audio {
+    padding: 15px;
     margin-top: 15px;
-    width: 70%;
+    width: 90%;
+    max-height: 300px;
+    border-radius: 10px;
+    background-color: rgb(0, 19, 36);
+    display: none;
+
+}
+.results h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.results p {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+audio {
+    margin-top: 5px;
+    width: 100%;
 }
 
 .error-message{
+    color: red;
     display: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     
 }
